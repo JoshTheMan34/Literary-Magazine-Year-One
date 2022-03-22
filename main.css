@@ -25,15 +25,13 @@ p {
     text-align: center;
 }
 
-.sidebar {
+.sidecontent {
     margin: 40% 5% 5% 5%;
     background-color: rgb(76, 141, 76);
     position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 0;
-  border: 2px solid #4CAF50;
-  padding-top: ;
-
+    position: sticky;
+    top: 0;
+    border: 2px solid #4CAF50;
 }
 
 .sidecover {
@@ -41,4 +39,33 @@ p {
     display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0%!important;
+    padding-left: 0%!important;
+}
+
+.sideboxes:hover {
+    background-color: rgb(48, 84, 124);
+}
+
+.navlist {
+    margin-bottom: 1%!important;
+}
+
+.tophome {
+    width: 20%;
+    float: right;
+}
+
+.toparch {
+    width: 20%;
+    float: left;
+}
+
+.artimg {
+    width: 50%;
+    margin: 0% 20% 0% 20%;
 }
