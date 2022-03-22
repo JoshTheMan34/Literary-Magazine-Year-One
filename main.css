@@ -1,3 +1,44 @@
 body {
-    background-color: gray;
+    background-color: rgb(76, 141, 76);
+}
+
+.container {
+    background-color: rgb(48, 84, 124);
+}
+
+.maincontent {
+    margin: 7% 5% 7% 5%;
+    border: black;
+    border-style: solid;
+}
+
+.entry {
+    padding: 3%;
+
+}
+p {
+    color: rgba(230, 227, 227, 0.877);
+}
+
+.main-title{
+    color: white;
+    text-align: center;
+}
+
+.sidebar {
+    margin: 40% 5% 5% 5%;
+    background-color: rgb(76, 141, 76);
+    position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  border: 2px solid #4CAF50;
+  padding-top: ;
+
+}
+
+.sidecover {
+    width: 85%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
