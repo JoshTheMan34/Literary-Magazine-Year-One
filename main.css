@@ -4,6 +4,7 @@ body {
 
 .container {
     background-color: rgb(48, 84, 124);
+    margin-top: 3%;
 }
 
 .maincontent {
