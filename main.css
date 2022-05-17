@@ -70,3 +70,17 @@ ul {
     width: 50%;
     margin: 0% 20% 0% 20%;
 }
+
+@font-face {
+    font-family: 'book';
+    src: url(fonts/book-antiqua.ttf);
+}
+
+@font-face {
+    font-family: 'ocra';
+    src: url(fonts/OCRAEXT.TTF);
+}
+
+.bookfont {
+    font-family: 'book';
+}
