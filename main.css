@@ -9,49 +9,56 @@
     src: url(fonts/OCRAEXT.TTF);
 }
 
-
-article{
+article {
     font-family: 'book';
     padding: 3%;
+    color:white;
+    margin: 7% 5% 7% 5%;
+    
+    border: 1px solid white;
+    position: relative;
+   
+}
+
+.article-content{
+    margin-top: 2rem;
 }
 
 .title {
     font-family: 'ocra';
+    background-color: rgb(49, 100, 158);
+    color: black;
+}
+
+hr {
+    color: black;
 }
 
 body {
-    background-color: rgb(76, 141, 76);
+    background-color: rgb(29, 29, 29);
 }
 
 .container {
-    background-color: rgb(48, 84, 124);
-    margin-top: 3%;
-}
-
-main {
-    margin: 7% 5% 7% 5%;
-    border: black;
-    border-style: solid;
+    padding-top: 3%;
 }
 
 p {
-    color: rgba(230, 227, 227, 0.877);
+    color: rgb(230, 227, 227);
 }
 
 .sidecontent {
     margin: 40% 5% 5% 5%;
-    background-color: rgb(76, 141, 76);
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    border: 2px solid #4CAF50;
+    
 }
 
 .sidecover {
     width: 85%;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
@@ -79,11 +86,52 @@ ul {
 }
 
 article img{
-    width: 50%;
-    margin: 0% 20% 0% 20%;
+    width: 100%;
 }
 
 article h3{ /* author names */
-    font-size: 0.8em;
+    font-size: 1em;
     font-style: italic;
 }
+
+/* nav bar */
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    background-color: rgb(49, 100, 158);
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(47, 47, 47);
+}
+
+
+
+.images {
+    width: 100%;
+}
+
+
+/* fade in */
+
+#container
+{
+    height:2000px;    
+}
+
+#container DIV
+{ 
+    margin:50px; 
+    padding:50px; 
+    background-color:pink; 
+}
+
+.hideme
+{
+    opacity:0;
+}
+
