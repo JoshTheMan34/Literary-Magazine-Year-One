@@ -9,8 +9,10 @@
     src: url(fonts/OCRAEXT.TTF);
 }
 
-.book {
+
+article{
     font-family: 'book';
+    padding: 3%;
 }
 
 .title {
@@ -32,10 +34,6 @@ main {
     border-style: solid;
 }
 
-.entry {
-    padding: 3%;
-
-}
 p {
     color: rgba(230, 227, 227, 0.877);
 }
@@ -83,4 +81,9 @@ ul {
 article img{
     width: 50%;
     margin: 0% 20% 0% 20%;
+}
+
+article h3{ /* author names */
+    font-size: 0.8em;
+    font-style: italic;
 }
