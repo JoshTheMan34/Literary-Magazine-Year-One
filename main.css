@@ -14,7 +14,6 @@ article {
     padding: 3%;
     color:white;
     margin: 7% 5% 7% 5%;
-    
     border: 1px solid white;
     position: relative;
    
@@ -40,6 +39,8 @@ body {
 
 .container {
     padding-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 p {
@@ -75,16 +76,6 @@ ul {
     margin-bottom: 1%!important;
 }
 
-.tophome {
-    width: 20%;
-    float: right;
-}
-
-.toparch {
-    width: 20%;
-    float: left;
-}
-
 article img{
     width: 100%;
 }
@@ -95,6 +86,10 @@ article h3{ /* author names */
 }
 
 /* nav bar */
+
+.nav a{ 
+    text-align: center;
+}
 
 .nav-link {
     color: white;
@@ -115,6 +110,10 @@ article h3{ /* author names */
     width: 100%;
 }
 
+.topbar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
 
 /* fade in */
 
@@ -135,3 +134,9 @@ article h3{ /* author names */
     opacity:0;
 }
 
+/* footer */
+
+.foottitle {
+    color: white;
+    text-align: center;
+}
