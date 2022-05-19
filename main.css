@@ -140,3 +140,39 @@ article h3{ /* author names */
     color: white;
     text-align: center;
 }
+
+#first {
+    background-color: rgb(48, 84, 124);
+}
+
+#second {
+    background-color: rgb(34, 65, 101);
+}
+
+#third .title {
+    background-color: rgb(67, 148, 52);
+}
+
+#third {
+    background-color: rgb(50, 110, 39);
+}
+
+#fourth {
+    background-color: rgb(31, 81, 139);
+}
+
+#fifth .title {
+    background-color: rgb(50, 110, 39);
+}
+
+#fifth {
+    background-color: rgb(67, 148, 52);
+}
+
+#sixth {
+    background-color: rgb(49, 85, 127);
+}
+
+#seventh {
+    background-color: rgb(61, 111, 168);
+}
