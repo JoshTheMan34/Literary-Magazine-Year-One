@@ -9,6 +9,15 @@
     src: url(fonts/OCRAEXT.TTF);
 }
 
+.flashpagepic {
+    width: 100%;
+    align-items: center;
+}
+
+.indexbody {
+    background-color: black;
+}
+
 article {
     font-family: 'book';
     padding: 3%;
@@ -176,3 +185,32 @@ article h3{ /* author names */
 #seventh {
     background-color: rgb(61, 111, 168);
 }
+
+#nineth {
+    background-color: rgb(53, 86, 124);
+}
+
+#tenth .title {
+    background-color: rgb(64, 131, 52);
+}
+
+#tenth {
+    background-color: rgb(55, 107, 46);
+}
+
+#eleventh {
+    background-color: rgb(34, 65, 101);
+}
+
+#twelfth {
+    background-color: rgb(48, 84, 124);
+}
+
+#thirteenth .title {
+    background-color: rgb(67, 148, 52);
+}
+
+#thirteenth {
+    background-color: rgb(50, 110, 39);
+}
+
