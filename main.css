@@ -14,8 +14,13 @@
     align-items: center;
 }
 
+.img-alignment {
+ text-align: center;
+}
+
 .indexbody {
     background-color: black;
+    width: auto;
 }
 
 article {
@@ -213,4 +218,18 @@ article h3{ /* author names */
 #thirteenth {
     background-color: rgb(50, 110, 39);
 }
+
+.earthcol {
+    position: relative;
+    margin: 0% 0% 0% 0%!important;
+}
+
+.earthimgs {
+    width: 50%;
+}
+
+.earthimgright {
+    float: right;
+}
+
 
