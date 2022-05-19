@@ -8,15 +8,9 @@
 ---
 ## Tech Team Members
 ### 2022 Tech Team
- - **Anmar Abdi** *
-    - @AnmarAbdi
- - Michael Crockett
-    - @michael-cxa
- - Shrey Patel
-    - @shreypatel30
- - Eli Patton
-    - @elipatton
- - Ryan Geyer
-    - @ryangeyer01
- - Matt Thornton
-    - @Matthew-Thornton
+ - [**Anmar Abdi**](https://github.com/AnmarAbdi) *
+ - [Michael Crockett](https://github.com/michael-cxa)
+ - [Shrey Patel](https://github.com/shreypatel30)
+ - [Eli Patton](https://github.com/elipatton)
+ - [Ryan Geyer](ryangeyer01)
+ - [Matt Thornton](https://github.com/Mathew-Thornton)
