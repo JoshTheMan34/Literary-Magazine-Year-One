@@ -14,3 +14,6 @@
  - [Eli Patton](https://github.com/elipatton)
  - [Ryan Geyer](https://github.com/ryangeyer01)
  - [Matt Thornton](https://github.com/Matthew-Thornton)
+ ---
+
+\* &rarr; denotes team leader
