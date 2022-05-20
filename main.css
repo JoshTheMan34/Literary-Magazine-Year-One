@@ -51,8 +51,8 @@ body {
 
 .container {
     padding-top: 3%;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 p {
@@ -118,7 +118,7 @@ article h3{ /* author names */
 
 
 
-img {
+article img {
     width: 100%;
 }
 
@@ -260,7 +260,6 @@ footer h3 {
 #half-earths img {
     width: 50%;
 }
-
 
 #corner_earth {
     width: 60%;
