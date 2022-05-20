@@ -157,12 +157,12 @@ article h3{ /* author names */
     text-align: center;
 }
 
-#first {
-    background-color: rgb(48, 84, 124);
-}
 
-#second {
-    background-color: rgb(34, 65, 101);
+#jackson {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+#jackson p{
+    color: black;
 }
 
 #third .title {
