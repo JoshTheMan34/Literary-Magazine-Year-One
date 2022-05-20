@@ -9,15 +9,11 @@
     src: url(fonts/OCRAEXT.TTF);
 }
 
-.flashpagepic {
+#flashpagepic {
     height: 100vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-.img-alignment {
- text-align: center;
 }
 
 .indexbody {
@@ -122,7 +118,7 @@ article h3{ /* author names */
 
 
 
-.images {
+img {
     width: 100%;
 }
 
@@ -152,7 +148,7 @@ article h3{ /* author names */
 
 /* footer */
 
-.foottitle {
+footer h3 {
     color: white;
     text-align: center;
 }
@@ -259,17 +255,13 @@ article h3{ /* author names */
 
 /* */
 
-.earthcol {
-    position: relative;
-    margin: 0% 0% 0% 0%!important;
-}
 
-.earthimgs {
+
+#half-earths img {
     width: 50%;
 }
 
-.earthimgright {
-    float: right;
+
+#corner_earth {
+    width: 60%;
 }
-
-
