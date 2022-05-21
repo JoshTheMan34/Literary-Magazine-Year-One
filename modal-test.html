@@ -10,19 +10,19 @@
   <link rel="stylesheet" href="main.css">
   <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/include.js"></script>
+  <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  
-  <!-- include header file -->
-<div class="indexbody">
-  <img src="img/2022/Storybook_titlepage.jpg" alt="Flash Page... Redirecting..." id="flashpagepic">
-</div>
-<script>
-  setTimeout(() => {
-  window.location.replace('/thestorybook.html');
-}, 2500);
-</script>
-  
+ 
+    <img class="visual-art" alt="hi" src="img/2022/growingpains.jpg" width="500" id="growing-pains">
+    <div id="imageModal">
+        <div id="imageModal-background"></div>
+        <span class="close"><i class="fas fa-times"></i></span>
+        <img id="imageModal-content">
+        <p id="imageModal-caption"></p>
+    </div>
+
+    <script src="scripts/image-modal.js"></script>
 </body>
 </html>
