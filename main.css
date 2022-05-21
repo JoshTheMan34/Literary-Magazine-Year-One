@@ -269,3 +269,22 @@ footer h3 {
 #in_the_dark_img {
     width: 60%;
 }
+
+@media only screen and (max-width: 900px) {
+    .col-2 {
+        display: none;
+    }
+    .col-10 {
+        width: auto;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .col-2 {
+        display: none;
+    }
+    .col-10 {
+        width: auto;
+        font-size: 3vw;
+    }
+  }
