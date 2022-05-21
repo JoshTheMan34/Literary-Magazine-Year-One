@@ -14,6 +14,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
 }
 
 .indexbody {
@@ -64,7 +65,7 @@ p {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    
+    padding-top: 40%;
 }
 
 .sidecover {
@@ -116,8 +117,6 @@ article h3{ /* author names */
     color: rgb(47, 47, 47);
 }
 
-
-
 article img {
     width: 100%;
 }
@@ -125,6 +124,14 @@ article img {
 .topbar {
     position: -webkit-sticky; /* Safari */
     position: sticky;
+}
+
+.sidebar {
+    padding: 0%;
+}
+
+.p-3 {
+    padding: 0%!important;
 }
 
 /* fade in */
@@ -272,6 +279,8 @@ footer h3 {
 
 
 
+
+
 /* Image Modal */
 .visual-art {
     cursor: pointer;
@@ -383,3 +392,50 @@ footer h3 {
         width: 75%;
     }
 }
+
+
+
+
+
+
+#vidsec {
+    background-color: black;
+}
+
+.ytvid {
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+    .col-2 {
+        display: none;
+    }
+    .col-10 {
+        width: auto;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .col-2 {
+        display: none;
+    }
+    .col-10 {
+        width: auto;
+        font-size: 3vw;
+    }
+    #flashpagepic {
+        height: 100vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+    .indexbody {
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 40%;
+    }
+  }
+
+
