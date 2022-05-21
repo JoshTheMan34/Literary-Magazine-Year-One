@@ -296,9 +296,7 @@ footer h3 {
 #imageModal-content {
     margin: auto;
     display: block;
-    width: 75%;
-    max-height: 100%;
-}
+ }
 
 /* Caption of Modal Image */
 #imageModal-caption {
@@ -370,5 +368,18 @@ footer h3 {
     }
     #imageModal{
         padding-top: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px){
+    #imageModal-content {
+        height: 96%;
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200px){
+    #imageModal-content {
+        width: 75%;
     }
 }
