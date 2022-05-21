@@ -270,6 +270,7 @@ footer h3 {
     width: 60%;
 }
 
+
 @media only screen and (max-width: 900px) {
     .col-2 {
         display: none;
@@ -286,5 +287,18 @@ footer h3 {
     .col-10 {
         width: auto;
         font-size: 3vw;
+    }
+    #flashpagepic {
+        height: 100vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+    .indexbody {
+        background-color: black;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 40%;
     }
   }
