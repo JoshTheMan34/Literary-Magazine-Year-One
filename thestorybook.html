@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="main.css">
   <script src="scripts/jquery-3.6.0.min.js"></script>
   <script src="scripts/include.js"></script>
+  <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
@@ -207,7 +208,7 @@
             <article class="hideme" id="third">
               <h2 class="title">mi casa, mi pais, mi mexico hermoso</h2>
               <div class="article-content">
-                <img src="img/2022/micasa.jpg">
+                <img src="img/2022/micasa.jpg" class="visual-art" alt="mi casa, mi pais, mi mexico hermoso">
                 <h3>Johanna Navarrete</h3>
                 <p>Goache on Paper
                   <br>
@@ -292,7 +293,7 @@
             <article class="hideme" id="fifth">
               <h2 class="title">Soften and Thaw</h2>
               <div class="article-content">
-                <img src="img/2022/softenandthaw.jpg">
+                <img src="img/2022/softenandthaw.jpg" class="visual-art" alt="Soften and Thaw">
                 <h3>Jessica Uko-Abasi</h3>
 
                 <p>Digital <br> 1600 px x 1200 px <br> March 18, 2022</p>
@@ -466,7 +467,7 @@
             <article class="hideme" id="tenth">
               <h2 class="title">Growing Pains</h2>
               <div class="article-content">
-                <img src="img/2022/growingpains.jpg">
+                <img src="img/2022/growingpains.jpg" class="visual-art" alt="Growing Pains">
                 <h3>K. Night</h3>
                 <p>Acrylic on Canvas Panel
                   <br>
@@ -552,7 +553,7 @@
             <article class="hideme" id="thirteenth">
               <h2 class="title">Home is Where the Heart is</h2>
               <div class="article-content">
-                <img src="img/2022/heartearth.png">
+                <img src="img/2022/heartearth.png" class="visual-art" alt="Home is Where the Heart is">
                 <h3>Callie Hallowell</h3>
                 <p>
                   Digital <br>
@@ -612,7 +613,7 @@
             <article class="hideme" id="fifteenth">
               <h2 class="title">Will you turn the lamp on?</h2>
               <div class="article-content">
-                <img src="img/2022/lampoff.png">
+                <img src="img/2022/lampoff.png" class="visual-art" alt="Will you turn the lamp on?">
                 <h3>Sarah Lancaster</h3>
                 <p>
                   Oil on Canvas <br>
@@ -624,7 +625,7 @@
             <article class="hideme" id="sixteenth">
               <h2 class="title">Macy invited us here. She doesn’t speak.</h2>
               <div class="article-content">
-                <img src="img/2022/macy.png">
+                <img src="img/2022/macy.png" class="visual-art" alt="Macy invited us here. She doesn’t speak.">
                 <h3>Hadley Roten</h3>
                 <p>
                   Colored Pencil on Paper <br>
@@ -684,7 +685,7 @@
             <article class="hideme" id="eighteenth">
               <h2 class="title">Ma lune</h2>
               <div class="article-content">
-                <img src="img/2022/malune.png">
+                <img src="img/2022/malune.png" class="visual-art" alt="Ma lune">
                 <h3>Ellie Pugh</h3>
                 <p>
                   Digital <br>
@@ -757,7 +758,7 @@
               <h2 class="title">In the Dark, Hold on</h2>
               <div class="article-content">
                 <div class="text-center">
-                  <img class="mx-auto" id="in_the_dark_img" src="img/2022/inthedark.png">
+                  <img class="mx-auto visual-art" id="in_the_dark_img" src="img/2022/inthedark.png" alt="In the Dark, Hold on">
                 </div>
                 <h3>Amanda Smith</h3>
                 <p>
@@ -778,7 +779,14 @@
 
 
 
+  <div id="imageModal">
+    <div id="imageModal-background"></div>
+    <span class="close"><i class="fas fa-times"></i></span>
+    <img id="imageModal-content">
+    <p id="imageModal-caption"></p>
+  </div>
 
+  <script src="scripts/image-modal.js"></script>
 
 
   <script>
